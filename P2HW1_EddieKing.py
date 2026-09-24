@@ -14,16 +14,22 @@
 # Calculate the remaining budget
 # Display the travel expenses in a formatted table
 
+#What is the budget
 budget = float(input("Enter your budget: "))
 
+#What is the travel destination
 destination = input("Enter your travel destination: ")
 
+#How much is the gas budget
 gas = float(input("How much do you expect to spend on gas? "))
 
+#How much is the accommodation budget
 accommodation = float(input("How much do you expect to spend on accommodation? "))
 
+#How much is the food budget
 food = float(input("How much do you expect to spend on food? "))
 
+#Total expenses
 total_expenses = gas + accommodation + food
 remaining_budget = budget - total_expenses
 
