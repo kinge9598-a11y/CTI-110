@@ -3,6 +3,13 @@
 # P2LAB1 - Circle Calculations
 # This program calculates the diameter, circumference, and area of a circle using a radius entered by the user.
 
+# Pseudocode:
+# 1. Ask the user to enter the radius of a circle.
+# 3. Calculate the diameter.
+# 4. Calculate the circumference.
+# 5. Calculate the area.
+# 6. Display the results with the required decimal formatting.
+
 #Import math module to use the constant, math.pi
 import math
 
